@@ -5,6 +5,11 @@ Haxe Presentations inspired by [hxslides](https://github.com/ncannasse/hxslides)
 * Html generated from markdown thanks to [backslide](https://github.com/sinedied/backslide) / [Remark.js](https://github.com/gnab/remark)
 * Light and dark theme
 
+## Demo
+
+* [Light theme demo](https://klabz.github.io/haxe-slides/demo.html)
+* [Dark theme demo](https://klabz.github.io/haxe-slides/demo-dark.html)
+
 ## Usage
 
 Installation:
