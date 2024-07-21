@@ -4,11 +4,20 @@ Haxe Presentations inspired by [hxslides](https://github.com/ncannasse/hxslides)
 
 * Html generated from markdown thanks to [backslide](https://github.com/sinedied/backslide) / [Remark.js](https://github.com/gnab/remark)
 * Light and dark theme
+* Publishing through github pages
+
+---
 
 ## Demo
 
+Github pages host (currently without index) generated presentations for `.md`
+files in the repository:
+
+* [Slides from README](https://klabz.github.io/haxe-slides/README.html)
 * [Light theme demo](https://klabz.github.io/haxe-slides/demo.html)
 * [Dark theme demo](https://klabz.github.io/haxe-slides/demo-dark.html)
+
+---
 
 ## Usage
 
@@ -21,13 +30,11 @@ npm install # Install backslide
 Live reload server when writing a presentation:
 
 ```sh
-npm run serve
+npm run serve # Then open http://localhost:8000/
 ```
-
-Then open `http://localhost:8000/`.
 
 Generate html files in `www` folder:
 
 ```sh
-npm run export
+npm run export # Export .md presentations as html in www/ folder
 ```
