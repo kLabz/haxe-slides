@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>{{title}}</title>
+	{{{style}}}
+	<script src="remark.min.js"></script>
+	<script>
+		function create() {
+			const slideshow = remark.create({
+				{{{source}}},
+				ratio: '16:9',
+				highlightLines: true,
+				highlightLanguage: 'haxe',
+				highlightStyle: 'monokai',
+				countIncrementalSlides: false,
+				includePresenterNotes: true,
+			});
+
+			slideshow.on('showSlide', function(slide) {
+				const total = slideshow.getSlideCount() - 1;
+				if (total >= 1) {
+					const pct = (slide.getSlideIndex() / total) * 100;
+					document.querySelectorAll(".remark-slide-progress").forEach(e => e.style.width = pct + "%");
+				}
+			});
+
+			// slideshow.togglePresentation();
+			return slideshow;
+		}
+	</script>
+</head>
+<body onload="slideshow = create()">
+</body>
+</html>
