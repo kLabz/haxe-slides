@@ -37,6 +37,8 @@ jobs:
         run: npm install
       - name: Generate presentations
         run: npm run export
+      - name: Turn README.html into index.html
+        run: mv www/README.html www/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

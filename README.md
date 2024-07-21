@@ -10,10 +10,9 @@ Haxe Presentations inspired by [hxslides](https://github.com/ncannasse/hxslides)
 
 ## Demo
 
-Github pages host (currently without index) generated presentations for `.md`
-files in the repository:
+Github pages host generated presentations for `.md` files in the repository:
 
-* [Slides from README](https://klabz.github.io/haxe-slides/README.html)
+* [Slides from README](https://klabz.github.io/haxe-slides/)
 * [Light theme demo](https://klabz.github.io/haxe-slides/demo.html)
 * [Dark theme demo](https://klabz.github.io/haxe-slides/demo-dark.html)
 
