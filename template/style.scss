@@ -195,6 +195,34 @@ blockquote {
   .col-#{$i} { width: math.div(100%, 12) * $i; }
 }
 
+.remark-slide-content {
+	table.light-keys {
+		font-size: 0.8em;
+
+		tr > td:first-child {
+			padding-right: 2em;
+		}
+	}
+
+	span.key {
+		color: $light;
+		background: $dark;
+		min-width: 1em;
+		display: inline-block;
+		padding: 3px 6px;
+		text-align: center;
+		border-radius: 4px;
+		font-size: 14px;
+	}
+
+	&.dark {
+		span.key {
+			background: $light;
+			color: $dark;
+		}
+	}
+}
+
 // Animations
 @keyframes fadeIn {
   from { opacity: 0; }
