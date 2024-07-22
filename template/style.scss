@@ -265,9 +265,7 @@ blockquote {
 }
 
 .remark-slide {
-	margin: 1em 2em;
-	height: calc(100% - 2em);
-	width: calc(100% - 4em);
+	padding: 1em;
 }
 
 .remark-slide-content {
@@ -276,6 +274,7 @@ blockquote {
 	background-image: url(bg.svg);
 	background-size: 3em;
 	background-position: 0 0;
+	line-height: 1.1;
 	overflow: hidden;
 
 	.remark-slide-number {
@@ -289,7 +288,7 @@ blockquote {
 		position: absolute;
 		bottom: 0;
 		left: 0;
-		height: 0.2em;
+		height: 0.25em;
 		width: 0%;
 		background: $primary;
 	}
