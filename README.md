@@ -1,4 +1,6 @@
-# Haxe Slides
+![Haxe logo](template/haxe-logo.svg)
+
+## Haxe Slides
 
 Haxe Presentations inspired by [hxslides](https://github.com/ncannasse/hxslides), with:
 
