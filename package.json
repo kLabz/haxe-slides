@@ -1,7 +1,7 @@
 {
   "scripts": {
     "serve": "npx backslide serve --skip-open --port 8000",
-    "export": "npx backslide export --output www --web"
+    "export": "npx backslide export --output www --no-inline"
   },
   "dependencies": {
     "backslide": "^3.1.0"
